@@ -1,0 +1,330 @@
+<!--
+    @Author: Kleiton Da Rosa
+    __dataInicio:10/12/2021
+    __titulo:WEBSITE_Expavi
+-->
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./elogo2.ico" type="image/png" sizes="16x16">
+    <title>Expavi</title>
+    
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    
+    <!--Boostraps-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <!--Scripts-->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    <!--Script do fontawesome.com-->
+    <script src="https://kit.fontawesome.com/6a033d967c.js" crossorigin="anonymous"></script>
+    <!--Progressbar-->
+    <script src="js/progressbar.min.js "></script>
+    <!--Parallax-->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+
+</head>
+<body>
+    <script src="js/scripts.js"> </script>
+    
+   <!--Barra de Navegacao-->
+   <header>
+    <div class="container" id="nav-container">
+      <!-- add essa class -->
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a class="navbar-brand" href="index.html">  
+          <img id="logo" src="_images/image1.jpg" alt="expavi_logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a href="./index.html" class="nav-item nav-link" id="home-menu">Home</a>
+            <a  class="nav-item nav-link" id="biografia-menu">Biografia</a>
+            <a href="./albuns.html" class="nav-item nav-link" id="albuns-menu">Albuns</a>
+            <a class="nav-item nav-link" id="followme -menu">Follow-me</a>
+            
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+ <!--Criar o Slider--> 
+ <main>
+    <div class="container-fluid">
+      <div id="mainSlider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+          <li data-target="#mainSlider" data-slide-to="1" ></li>
+          <li data-target="#mainSlider" data-slide-to="2" ></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="_images/Expavi_renasciment.png" class="d-block w-100" alt="Bibliografia_Expavi">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Bibliografia</h2>
+              <p>Acesse a minha Biografia</p>
+              <a href="#" class="main-btn">Ver Bibliografia</a>
+            </div>
+          </div>
+
+          <div class="carousel-item ">
+            <img src="_images/Expavi_renasciment.png " class="d-block w-100" alt="Albuns_Expavi">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Albuns</h2>
+              <p>Ver todos meus albuns lançados</p>
+              <a href="#" class="main-btn">Ver Albuns</a>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="_images/Expavi_renasciment.png" class="d-block w-100" alt="Follow-me">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Follow-me</h2>
+              <p>Follow-me nas redes Sociais</p>
+              <a href="#" class="main-btn">Follow-me</a>
+            </div>
+          </div>
+
+        
+        </div>
+        <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide='prev'>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a href="#mainSlider" class="carousel-control-next" role="button" data-slide='next'>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+
+      
+ 
+
+
+      <!--Sobre EXPAVI-->
+
+      <div id="about-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Bibliografia</h3>
+
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid" src="_images/expavi_bibliografia.jpg">
+
+            </div>
+            <div class="col-md-6">
+              <h3 class="about-title">Expavi</h3>
+              <p>Jair Rendaal Almeida, mais conhecido por Expavi, é um músico cabo-verdiano que desde 1995 está imerso na cena hip-hop do seu país,
+                 passando por vários grupos como:
+                 <ul class="about-list">
+                  <li><i class="fas fa-check">BOYS SCRETCH</i></li>
+                  <li><i class="fas fa-check">PLUTAO</i></li>
+                  <li><i class="fas fa-check">REBELDES RDS</i></li>
+                  <li><i class="fas fa-check">HIP HOP ART</i></li>
+
+                </ul>
+                
+                
+                </p>
+              <p>Com este último, além disso, construíram uma ampla carreira gravadora que os levou a tocar em diversos países.</p>
+              <p>Mas suas preocupações musicais o levaram a realizar também um projeto solo, o Expavi, com o qual já assinou vários álbuns e uma mixtape. </p>
+              
+              <!--Falta ainda Adicionar os grupos em que ele participou -->
+              
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+       <!--Albuns E Mixtapes Expavi-->
+       <div id="albuns">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title"> Albuns</h3>
+            </div>
+
+            <div class="col-md-4 service-box">
+              <h4>HIST. KNUNCA ESH CONTOB</h4>
+              <p>EXPAVI</p>
+              <img src="_images/album_historiaknunkaeshcontob.jpg" class="d-block w-100" alt="Albuns_Expavi"> 
+            </div>  
+ 
+             
+
+            <div class="col-md-4 service-box">
+              <h4>K1 KLASS DA GAITA</h4>
+              <p>EXPAVI E HERNANY ALMEIDA</p>
+              <img src="_images/album_K1KlassDaGaita.jpg " class="d-block w-100" alt="Albuns_Expavi"> 
+            </div>  
+
+            <div class="col-md-4 service-box">
+              <h4>GUERRA SANTA</h4>
+              <p>EXPAVI</p>
+              <img src="_images/album_guerraSanta.jpg" class="d-block w-100" alt="Albuns_Expavi"> 
+              
+            </div>  
+
+            <div class="col-md-4 service-box">
+              
+              <h4>LEGACIA</h4>
+              <p>EXPAVI e ROCKUS</p>
+              <img src="_images/album_legacia.jpg " class="d-block w-100" alt="Albuns_Expavi"> 
+              
+            </div>  
+
+            <div class="col-md-4 service-box">
+              
+              <h4>PUR A.M.O.R</h4>
+              <p>EXPAVI e DJ LETRA</p>
+              <img src="_images/album_porAmor.jpg " class="d-block w-100" alt="Albuns_Expavi"> 
+              
+            </div>  
+
+            <div class="col-md-4 service-box">
+              
+              <h4>KUMBAYAH</h4>
+              <p>EXPAVI e MR.BLIND</p>
+              <img src="_images/album_Kumbayah.jpg " class="d-block w-100" alt="Albuns_Expavi"> 
+              
+            </div>  
+
+              
+               
+
+
+              
+          </div>
+        </div>
+
+      </div>
+
+      <!--Dados Expavi-->
+ <div id="data-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 circle-box">
+        <div id="circleA"></div>
+        <p>Albuns</p>
+      </div>
+      <div class="col-md-3 circle-box">
+        <div id="circleB"></div>
+        <p>Contributos</p>
+      </div>
+      <div class="col-md-3 circle-box">
+        <div id="circleC"></div>
+        <p>Seguidores Instagram</p>
+      </div>
+      <div class="col-md-3 circle-box">
+        <div id="circleD"></div>
+        <p>Subscritores</p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+      
+
+     
+
+
+      <!--Novidades Expavi-->
+    
+
+
+
+
+
+    </div> 
+  
+  </main>
+
+  <!--RODAPE-->
+  <footer>
+    <div id="contact-area">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Follow-me</h3>
+            </div>
+            <div class="col-md-4 contact-box">
+              <img src="_images/facebook.png" alt="">
+            </div>
+            <div class="col-md-4 contact-box">
+              <a href="https://www.instagram.com/expavi/"></a><img src="_images/instagram.png" alt="">
+              
+            </div>
+            <div class="col-md-4 contact-box">
+              <a href="https://www.youtube.com/c/Expavi"><img src="_images/youtube.png" alt=""></a>
+            </div>
+
+            <div class="col-md-6" id="msg-box">
+              <h3 class="main-title">Deixe-me uma mensagem</h3>
+              <img src="_images/album_Kumbayah.jpg " id="imgExpavi" alt="Expavi"> 
+
+            </div>
+            
+
+            <div class="col-md-6" id="contact-form">
+              <form action="">
+                <input type="text" class="form-control" placeholder="E-mail" name="email">
+                <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+                <input type="submit" value ="Enviar" class="main-btn">
+              </form>
+            </div>
+
+           
+
+          </div>
+      </div>
+    </div>
+    <div id="copy-area">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <p>Desenvolvido por <a href="https://www.linkedin.com/in/kleiton-da-rosa-483a161a3/" target="_blank">Kleiton Da Rosa</a> &copy;2022</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+        
+
+
+</body>  
+</html>  
